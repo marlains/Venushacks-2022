@@ -1,11 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+// import Navbar from "....."
 
 function App() {
   const a = 5;
 
+  const ClickMeButton = () => (
+    <button>
+      Click me!
+    </button>
+  );
+
   return (
     <div className="App">
+      {/* <Navbar /> */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,6 +27,7 @@ function App() {
         >
           Learn React {a}
         </a>
+        <ClickMeButton />
       </header>
     </div>
   );
