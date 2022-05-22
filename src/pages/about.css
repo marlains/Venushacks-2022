@@ -1,0 +1,16 @@
+.table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+}
+
+row {
+    /* flex-direction: row;
+    height: 10%; */
+}
+
+col {
+    /* display: flex;
+    width: 10%; */
+}
