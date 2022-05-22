@@ -17,34 +17,34 @@ function AllCards() {
                     <Cards 
                     src={pic}
                     text='Clothes'
-                    path='/'
+                    path='/clothes'
                     />
                     <Cards 
                     src={pic2}
                     text='Acessories'
-                    path='/'
+                    path='/acessories'
                     />
                     <Cards 
                     src={pic3}
                     text='Art'
-                    path='/'
+                    path='/art'
                     />
                 </ul>
                 <ul className='card_name_wrapper'>
                     <Cards 
                     src={pic4}
                     text='Home'
-                    path='/'
+                    path='/homegoods'
                     />
                     <Cards 
                     src={pic5}
                     text='Cooking and Baking'
-                    path='/'
+                    path='/cooking'
                     />
                     <Cards 
                     src={pic6}
                     text='Party'
-                    path='/'
+                    path='/party'
                     />
                 </ul>
             </div>
