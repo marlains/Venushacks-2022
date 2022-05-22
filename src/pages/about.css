@@ -1,0 +1,19 @@
+.table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+    /* position: relative;
+    top: 50%;
+    align-items: center;     */
+}
+
+row {
+    /* flex-direction: row;
+    height: 10%; */
+}
+
+col {
+    /* display: flex;
+    width: 10%; */
+}
