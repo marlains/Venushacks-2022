@@ -1,14 +1,13 @@
-import { FaBars } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-    background: orangered;
+    background: #f2d2ce;
     height: 85px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.2rem calc((100vw - 1000px) / 2);
+    padding: 0.2rem calc((100vw - 1600px) / 2);
     z-index: 12;
 `;
 export const NavLogo = styled(Link)`
@@ -16,11 +15,12 @@ export const NavLogo = styled(Link)`
   color: #fff;
   font-size: 2rem;
   text-decoration: none;
+  align-items: left;
 
 `;
 
 export const NavLink = styled(Link)`
-color: #fff;
+color: #656263;
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -32,26 +32,12 @@ cursor: pointer;
 }
 `;
 
-export const Bars = styled(FaBars)`
-  display: none;
-  color: #fff;
-  @media screen and (max-width: 768px) {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 75%);
-    font-size: 1.8rem;
-    cursor: pointer;
-  }
-`;
-
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: -24px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     display: none;
   }
 `;
@@ -70,9 +56,9 @@ export const NavBtnLink = styled(Link)`
   border-radius: 4px;
   background: transparent;
   padding: 10px 22px;
-  color: #fff;
+  color: #656263;
   outline: none;
-  border: 1px solid #fff;
+  border: 1px solid #656263;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
@@ -83,3 +69,5 @@ export const NavBtnLink = styled(Link)`
     color: #808080;
   }
 `;
+
+// Followed the tutorial from https://dev.to/stephanieopala/simple-navigation-bar-in-react-js-4d5m
