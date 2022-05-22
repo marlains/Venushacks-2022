@@ -6,6 +6,7 @@ import About from './pages/about';
 import Contact from './pages/contact';
 import SignUp from './pages/signup';
 import SignIn from './pages/signin';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/signin" element={<SignIn />}/>
         <Route path="/signup" element={<SignUp />}/>
       </Routes>
+      <Footer />
     </Router>
 
   );
