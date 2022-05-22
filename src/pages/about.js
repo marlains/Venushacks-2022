@@ -46,12 +46,13 @@ const About = () => {
             <p> 
                 Domestic Violence are worldwide problem and can lead to severe injuries, psychological and emotional issues, and death.
                 Here in the U.S. 1 in 3 women and 1 in 4 men have been physically abused. This means that someone one you know might been exposed
-                domestic violence. Womxn are more vulnerable to violence and struggles to seek help, and financial situation is one of the obstacles
+                domestic violence.
             </p>
             </div>
             
             </div>
         </div>
+        <div>
         <div style={{
             display: 'flex',
             justifyContent: 'center',
@@ -60,6 +61,14 @@ const About = () => {
             padding: '5%'
             }}>
             <img src={logo}   width="20%" />
+            <div>
+                <h1> Why Kintsugi?</h1>          
+                <p> Kintsugi is Japanese art of reparing broken ceramic with gold. Broken and repaired can be beutiful
+                    and strong. Womxn survivors are powerful and gorgeous. Their scars do not define them, they tell us a 
+                    new begining is possible.
+                </p>
+            </div>
+            </div>
 
         </div>
         </>
