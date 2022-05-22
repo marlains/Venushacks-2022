@@ -13,7 +13,7 @@ function AllCards() {
     <div className='all_cards'>
         <div className='all_cards_container'>
             <div className='all_cards_wrapper'>
-                <ul className='card_name'>
+                <ul className='card_name_wrapper'>
                     <Cards 
                     src={pic}
                     text='Clothes'
@@ -30,7 +30,7 @@ function AllCards() {
                     path='/'
                     />
                 </ul>
-                <ul className='card_name'>
+                <ul className='card_name_wrapper'>
                     <Cards 
                     src={pic4}
                     text='Home'
