@@ -2,10 +2,12 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import pic from "../components/Images/hands.jpg"
 import pic2 from "../components/Images/women.jpg"
+import logo from "../components/Images/logo-full.png"
 import './about.css';
 
 const About = () => {
     return (
+        <>
         <div className="table">
             <div style={{
             display: 'flex',
@@ -50,6 +52,17 @@ const About = () => {
             
             </div>
         </div>
+        <div style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            marginTop: '100px',
+            padding: '5%'
+            }}>
+            <img src={logo}   width="20%" />
+
+        </div>
+        </>
                
         
     );
