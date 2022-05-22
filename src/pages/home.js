@@ -1,7 +1,12 @@
 import React from 'react';
+import AllCards from '../components/AllCards';
+import Footer from '../components/Footer/Footer';
+
 const Home = () => {
   return (
-    <h1>Welcome to our website</h1>
+    <>
+      <AllCards />
+    </>
   );
 };
 export default Home;
