@@ -1,6 +1,8 @@
 # VenusHacks 2022 Project: Kintsugi WebApp
 
-This project is part of our endeavor on VenusHacks 2022. It was created using React.
+This project is part of our endeavor on VenusHacks 2022, a 36-hour hack-a-thon led by UCI. 
+
+Our project was created using React.
 
 This project was created with [Create React App](https://github.com/facebook/create-react-app).
 
